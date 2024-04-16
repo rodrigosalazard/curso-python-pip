@@ -150,50 +150,22 @@ Las contribuciones siempre son bienvenidas! 😄
 
 Clone the project
 
-```bash
-    git clone git@bitbucket.org:sorianoariza/records_store.git
-```
-
-Create a database and define the credentials in app/database/connection.py and it will automatically create the tables in database:
-```bash
-    DATABASE_URL = "mysql+mysqlconnector://user:password@localhost:3306/database"
-```
-
-You can create a virtual environment in a directory using Python's venv module:
-
-```bash
-    python3 -m venv venv
-```
-
-Activate the new environment with:
-```bash
-    source ./venv/bin/activate
-```
-
-After activating the environment as described above:
-```bash
-    pip3 install -r requirements.txt
-
-```
-It will install all the dependencies and your local FastAPI in your local environment.
-
-
 Go to the project directory
 
 ```bash
     cd app
 ```
 
-Start the server
-
+Go to the game directory
 ```bash
-    python3 -m uvicorn app:app --reload
+    cd game
 ```
 
-To visualize the documentation:
+Run Locally
 ```bash
-    http://127.0.0.1:8000/docs
+    python3 main.py
 ```
+
 
 
 
