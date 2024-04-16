@@ -177,9 +177,14 @@ Go to the project directory
     cd py-project
 ```
 
-Go to the game directory
+Go to the App directory
 ```bash
     cd app
+```
+
+Create the Environment
+```bash
+    python3 -m venv env
 ```
 
 Activate the Environment
