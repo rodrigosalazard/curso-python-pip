@@ -153,7 +153,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-    cd app
+    cd py-project
 ```
 
 Go to the game directory
@@ -167,50 +167,44 @@ Run Locally
 ```
 
 
+## Run Locally APP
+
+Clone the project
+
+Go to the project directory
+
+```bash
+    cd py-project
+```
+
+Go to the game directory
+```bash
+    cd app
+```
+
+Activate the Environment
+```bash
+    source env/bin/activate
+```
+
+Install Requirements
+```bash
+    pip3 install -r requirements.txt
+```
+
+Run Locally
+```bash
+    python3 main.py
+```
+
+
 
 
 ## Documentation
 
  - [Python](https://www.python.org/downloads/)
- - [FastAPI](https://fastapi.tiangolo.com/)
- - [Sqlalchemy](https://www.sqlalchemy.org/)   
- - [Openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+ - [Matplolib](https://pypi.org/project/matplotlib/)
  - [Pandas](https://pandas.pydata.org/)
- - [FastAPI Pagination](https://github.com/uriyyo/fastapi-pagination)
- - [Database to Code (ORMs)](https://sqlmodel.tiangolo.com/db-to-code) 
- - [How to Send Emails in Python with Gmail](https://mailtrap.io/blog/python-send-email-gmail/)
- - [Spotify for Developers WEB API documentation ](https://developer.spotify.com/documentation/web-api)
-
-
-## Environment Variables
-
-Para correr este proyecto, definir las siguientes variables en tabla de la base de datos llamada _vars_:
-
-`SECRET_KEY`
-
-    Para obtener una cadena como esta
-
-    "9f0c089cc405abfbe78673a6627456e5ab1553b4..."
-    
-    ejecuta:
-    
-    openssl rand -hex 32
-
-    Necesaria para el OAuth2 con contraseña (y hashing), Bearer con tokens JWT.
-
-
-`ALGORITHM`
-            HS256
-
-`ACCESS_TOKEN_EXPIRE_MINUTES`
-            30
-
-`CLIENT_ID`
-        CLIENT ID PARA SPOTIFY
-
-`CLIENT_SECRET`
-        CLIENT_SECRET PARA SPOTIFY 
-
 
 
 
